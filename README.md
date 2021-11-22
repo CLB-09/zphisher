@@ -75,7 +75,7 @@ $ docker run --rm -it CLB-09/zphisher
 ### Special Thanks :
  
 - [**Github**](https://github.com/CLB-09)
-- [**Facebook**](https://github.com/A.BASIT.KAMBOH)
+- [**Facebook**](https://facebook.com/A.BASIT.KAMBOH)
 
  
 ### Find Me on :
