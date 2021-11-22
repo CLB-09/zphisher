@@ -2,13 +2,25 @@
 
 Just, Clone this repository -
 
+$ apt update 
+
+$ apt upgrade
+
+$ pkg install git
+
+$ pkg install php curl openssh -y
+
 $ git clone https://github.com/CLB-09/zphisher.git
 
-Change to cloned directory and run zphisher-09.sh -
- 
+$ ls
+
 $ cd zphisher
 
 $ bash zphisher-09.sh
+
+
+
+
 
 
 On first launch, It'll install the dependencies and that's it. Zphisher is installed.
