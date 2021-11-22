@@ -2,11 +2,11 @@
 
 ##   Zphisher 	: 	Automated Phishing Tool
 ##   Author 	: 	CLB-09
-##   Version 	: 	2.2
+##   Version 	: 	3.0
 ##   Github 	: 	https://github.com/CLB-09
 ##   Facebook:   A.BASIT.KAMBOH
 
-##      Copyright (C) 2022  HTR-TECH (https://github.com/CLB-09)
+##      Copyright (C) 2022  CLB-09 (https://github.com/CLB-09)
 ##
 
 
